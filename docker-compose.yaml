@@ -13,7 +13,6 @@ services:
     environment:
       - OLLAMA_VULKAN=1
       - OLLAMA_NUM_PRALLEL=4
-      # - OLLAMA_NUM_GPU=5
   
   open-webui:
     build:
